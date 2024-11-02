@@ -4213,7 +4213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Resistor_0402"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 218.44 124.968 0)
 			(effects
 				(font
@@ -5544,7 +5544,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Resistor_0402"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 218.44 114.808 0)
 			(effects
 				(font
@@ -5765,7 +5765,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Resistor_0402"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 218.44 112.268 0)
 			(effects
 				(font
@@ -5832,7 +5832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Resistor_0402"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 218.44 117.348 0)
 			(effects
 				(font
@@ -6259,7 +6259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Resistor_0402"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 218.44 66.548 0)
 			(effects
 				(font
@@ -6326,7 +6326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Resistor_0402"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 218.44 71.628 0)
 			(effects
 				(font
@@ -6614,7 +6614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Resistor_0402"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 218.44 109.728 0)
 			(effects
 				(font
@@ -6912,7 +6912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Resistor_0402"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 218.44 58.928 0)
 			(effects
 				(font
@@ -7559,7 +7559,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Resistor_0402"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 218.44 64.008 0)
 			(effects
 				(font
@@ -7626,7 +7626,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Resistor_0402"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 218.44 107.188 0)
 			(effects
 				(font
@@ -7760,7 +7760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Resistor_0402"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 218.44 61.468 0)
 			(effects
 				(font
@@ -8474,7 +8474,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Resistor_0402"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 218.44 122.428 0)
 			(effects
 				(font
@@ -8832,7 +8832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Resistor_0402"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 218.44 69.088 0)
 			(effects
 				(font
@@ -9078,7 +9078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Resistor_0402"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 218.44 56.388 0)
 			(effects
 				(font
@@ -9211,7 +9211,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Resistor_0402"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 218.44 119.888 0)
 			(effects
 				(font
@@ -9479,7 +9479,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Resistor_0402"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 218.44 74.168 0)
 			(effects
 				(font
