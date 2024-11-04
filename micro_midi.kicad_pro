@@ -462,7 +462,11 @@
       "/ROW 0": "ROW 1",
       "/ROW 1": "ROW 1",
       "/ROW 2": "ROW 1",
-      "/ROW 3": "ROW 1"
+      "/ROW 3": "ROW 1",
+      "Net-(D1-K)": "ROW 1",
+      "Net-(D10-K)": "ROW 1",
+      "Net-(D13-K)": "ROW 1",
+      "Net-(D5-K)": "ROW 1"
     },
     "netclass_patterns": []
   },
