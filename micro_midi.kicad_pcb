@@ -41,7 +41,7 @@
 	(setup
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(grid_origin 31.51 46.024)
+		(grid_origin 262.328076 136.966049)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -63,7 +63,7 @@
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
 			(dxfpolygonmode yes)
-			(dxfimperialunits yes)
+			(dxfimperialunits no)
 			(dxfusepcbnewfont yes)
 			(psnegative no)
 			(psa4output no)
@@ -73,11 +73,11 @@
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 3)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "./")
 		)
 	)
 	(net 0 "")
@@ -16121,7 +16121,7 @@
 	)
 	(gr_rect
 		(start 31.248076 65.334049)
-		(end 262.328076 130.966049)
+		(end 262.328076 136.966049)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -16129,6 +16129,58 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "84b07ee0-da24-43c0-b2c7-8c257af26b8a")
+	)
+	(gr_text "*"
+		(at 255.560438 132.366422 0)
+		(layer "F.Fab")
+		(uuid "0379c5b1-922e-43e0-9cb9-d599faeb6fbd")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "*"
+		(at 36.510612 72.643482 0)
+		(layer "F.Fab")
+		(uuid "42149f2c-d205-485c-8bfd-0e3ddbe61e98")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "*"
+		(at 255.554484 72.674668 0)
+		(layer "F.Fab")
+		(uuid "7b2615e8-e155-4462-bac7-9a15bd8d0791")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "*"
+		(at 36.516566 132.335236 0)
+		(layer "F.Fab")
+		(uuid "d3464e38-76c6-46ee-92f1-07bb89bf1c2c")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "04/11/2024"
 		(at 206.257768 194.180484 0)
