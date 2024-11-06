@@ -478,9 +478,9 @@
       "plot": "./",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "micro_midi.step",
       "svg": "./",
-      "vrml": ""
+      "vrml": "micro_midi.wrl"
     },
     "page_layout_descr_file": ""
   },
