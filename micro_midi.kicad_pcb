@@ -41,10 +41,10 @@
 	(setup
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(grid_origin 31.248076 65.334049)
+		(grid_origin 146.533076 103.535549)
 		(pcbplotparams
 			(layerselection 0x0040000_7ffffffe)
-			(plot_on_all_layers_selection 0x003b3fe_00000000)
+			(plot_on_all_layers_selection 0x7ffff00_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
@@ -16119,9 +16119,75 @@
 			)
 		)
 	)
+	(gr_circle
+		(center 89.448076 103.535549)
+		(end 87.996451 103.535549)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "0ecd700b-1f3d-46b1-9e38-85e98388691d")
+	)
+	(gr_circle
+		(center 255.788076 130.966049)
+		(end 254.336451 130.966049)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "25412e1b-40cc-4471-8d6f-fb769c55ad74")
+	)
+	(gr_circle
+		(center 255.788076 71.334049)
+		(end 254.336451 71.334049)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "3563a933-6c10-4028-9ee2-b845eaca2446")
+	)
+	(gr_circle
+		(center 146.533076 103.535549)
+		(end 145.081451 103.535549)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "35d2c83c-6f44-4d2f-95fe-b3a042647480")
+	)
+	(gr_circle
+		(center 37.788076 130.966049)
+		(end 36.336451 130.966049)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "5b81dbfe-c942-479c-b50c-c5507d714b5e")
+	)
+	(gr_circle
+		(center 203.683076 103.535549)
+		(end 202.231451 103.535549)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "7ce97c60-d1aa-40b8-be89-2d4f9b661259")
+	)
 	(gr_rect
-		(start 31.248076 65.334049)
-		(end 262.328076 136.966049)
+		(start 31.788076 65.334049)
+		(end 261.788076 136.966049)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -16130,56 +16196,27 @@
 		(layer "Edge.Cuts")
 		(uuid "84b07ee0-da24-43c0-b2c7-8c257af26b8a")
 	)
-	(gr_text "*"
-		(at 255.560438 132.366422 0)
-		(layer "F.Fab")
-		(uuid "0379c5b1-922e-43e0-9cb9-d599faeb6fbd")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
+	(gr_circle
+		(center 37.788076 71.334049)
+		(end 36.336451 71.334049)
+		(stroke
+			(width 0.05)
+			(type default)
 		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "963df9c0-7ed6-4884-a370-86c4247d099a")
 	)
-	(gr_text "*"
-		(at 36.510612 72.643482 0)
-		(layer "F.Fab")
-		(uuid "42149f2c-d205-485c-8bfd-0e3ddbe61e98")
+	(gr_text "Micro Midi Button Matrix v1\n07/11/2024"
+		(at 146.403076 133.045549 0)
+		(layer "F.SilkS")
+		(uuid "56f89724-1025-4a88-83c1-9b3f020c5bae")
 		(effects
 			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
+				(size 1 1)
+				(thickness 0.15)
 			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "*"
-		(at 255.554484 72.674668 0)
-		(layer "F.Fab")
-		(uuid "7b2615e8-e155-4462-bac7-9a15bd8d0791")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "*"
-		(at 36.516566 132.335236 0)
-		(layer "F.Fab")
-		(uuid "d3464e38-76c6-46ee-92f1-07bb89bf1c2c")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
+			(justify bottom)
 		)
 	)
 	(gr_text "04/11/2024"
