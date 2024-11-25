@@ -41,15 +41,15 @@
 	(setup
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(grid_origin 35.663076 136.966049)
+		(grid_origin 203.683076 103.535549)
 		(pcbplotparams
-			(layerselection 0x0040000_7ffffffe)
-			(plot_on_all_layers_selection 0x7ffff00_00000000)
+			(layerselection 0x00410fc_ffffffff)
+			(plot_on_all_layers_selection 0x0013200_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -72,12 +72,12 @@
 			(plotfptext yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
-			(subtractmaskfromsilk no)
-			(outputformat 3)
+			(subtractmaskfromsilk yes)
+			(outputformat 1)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "./")
+			(outputdirectory "for_pcb/")
 		)
 	)
 	(net 0 "")
@@ -141,7 +141,7 @@
 		)
 		(property "Value" "Keyswitch"
 			(at 0 8 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "27ba1db0-896a-4fb8-b1fb-9aa3fb14f3b2")
 			(effects
 				(font
@@ -475,7 +475,7 @@
 		)
 		(property "Value" "LED"
 			(at 1.27 2.96 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "9ba4ca96-dab4-4812-bd0e-74d5ec788ca7")
 			(effects
 				(font
@@ -801,7 +801,7 @@
 		)
 		(property "Value" "LED"
 			(at 1.27 2.96 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "031d8a67-cf88-4afd-b97f-398269b564a7")
 			(effects
 				(font
@@ -1043,7 +1043,7 @@
 		)
 		(property "Value" "LED"
 			(at 1.27 2.96 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "e58ad7c1-3bf1-4cbd-8224-9f29e28dbe72")
 			(effects
 				(font
@@ -1285,7 +1285,7 @@
 		)
 		(property "Value" "LED"
 			(at 1.27 2.96 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "db02c6fc-72d7-4c1b-b86c-b6b6c6aa4f03")
 			(effects
 				(font
@@ -1695,7 +1695,7 @@
 		)
 		(property "Value" "LED"
 			(at 1.27 2.96 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "d7037302-5cd3-45f1-8815-339fa825efd3")
 			(effects
 				(font
@@ -2002,6 +2002,116 @@
 			(uuid "0d744e03-3844-46d2-b724-f06aa53cff7d")
 		)
 	)
+	(footprint "MountingHole:MountingHole_2.7mm"
+		(layer "F.Cu")
+		(uuid "21cb5d96-6825-4a29-b45b-e3bbde44a1ae")
+		(at 89.448076 103.535549)
+		(descr "Mounting Hole 2.7mm, no annular")
+		(tags "mounting hole 2.7mm no annular")
+		(property "Reference" "REF**"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f2b8408e-06b4-4e9a-b55e-3a845075a151")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.7mm"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "e5360e84-40e6-416e-bb3f-a913a91f1794")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb2b890f-d7fb-4cc7-a6f2-768801daf316")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04be6e74-4144-403a-95f8-bc37ba2ddbbc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c439e395-c585-48d9-9574-69dbab8d857e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "841dfe62-2480-4ce1-bab5-027c7bc06211")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "bb3ed23d-b031-4e48-a69a-e119cbd8f268")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "73499d05-af79-42fe-9443-4c85f4634c2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "fdf6ff17-64f2-4204-84aa-4301c8756855")
+		)
+	)
 	(footprint "CustomLib:THROUGH HOLE PAD 1.7MM HOLE 3.0MM PAD"
 		(layer "F.Cu")
 		(uuid "25f1f14c-bbc4-43bd-8e1f-f8e75711262c")
@@ -2105,7 +2215,7 @@
 		)
 		(property "Value" "Keyswitch"
 			(at 0 8 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "82424f40-7414-4e55-a055-e4e9d2239d45")
 			(effects
 				(font
@@ -2504,6 +2614,116 @@
 			(uuid "c2b0f0da-0931-4bb0-8d73-a0891528a86d")
 		)
 	)
+	(footprint "MountingHole:MountingHole_2.7mm"
+		(layer "F.Cu")
+		(uuid "30f2b2a4-aff2-49a7-be4b-701b800f2d00")
+		(at 146.533076 103.535549)
+		(descr "Mounting Hole 2.7mm, no annular")
+		(tags "mounting hole 2.7mm no annular")
+		(property "Reference" "REF**"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f2b8408e-06b4-4e9a-b55e-3a845075a151")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.7mm"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "e5360e84-40e6-416e-bb3f-a913a91f1794")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb2b890f-d7fb-4cc7-a6f2-768801daf316")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04be6e74-4144-403a-95f8-bc37ba2ddbbc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c439e395-c585-48d9-9574-69dbab8d857e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "841dfe62-2480-4ce1-bab5-027c7bc06211")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "bb3ed23d-b031-4e48-a69a-e119cbd8f268")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "73499d05-af79-42fe-9443-4c85f4634c2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "fdf6ff17-64f2-4204-84aa-4301c8756855")
+		)
+	)
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "3834f35b-6bae-48d0-87d4-c63cf0360fab")
@@ -2523,7 +2743,7 @@
 		)
 		(property "Value" "LED"
 			(at 1.27 2.96 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "281fcd59-a0c7-4c91-b076-818d8c80c8cb")
 			(effects
 				(font
@@ -2849,7 +3069,7 @@
 		)
 		(property "Value" "LED"
 			(at 1.27 2.96 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "3bc6f0b3-a3ef-4fc4-a233-482de05f98f6")
 			(effects
 				(font
@@ -3091,7 +3311,7 @@
 		)
 		(property "Value" "Keyswitch"
 			(at 0 8 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "5b6815b4-4b63-47f6-b75d-875b45957589")
 			(effects
 				(font
@@ -3425,7 +3645,7 @@
 		)
 		(property "Value" "Keyswitch"
 			(at 0 8 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "434446eb-801d-49ee-9bc6-f685ae16e133")
 			(effects
 				(font
@@ -3759,7 +3979,7 @@
 		)
 		(property "Value" "Keyswitch"
 			(at 0 8 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "43a85a80-cfb4-4a02-bf66-099a4c694b7f")
 			(effects
 				(font
@@ -4093,7 +4313,7 @@
 		)
 		(property "Value" "LED"
 			(at 1.27 2.96 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "4aa36b09-6907-4578-983b-05ec8e4b9263")
 			(effects
 				(font
@@ -4335,7 +4555,7 @@
 		)
 		(property "Value" "LED"
 			(at 1.27 2.96 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "154c4442-95c1-4899-a90a-0fb8d01a886b")
 			(effects
 				(font
@@ -4745,7 +4965,7 @@
 		)
 		(property "Value" "Keyswitch"
 			(at 0 8 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "395a9391-59f4-45b1-8321-049cefc73d37")
 			(effects
 				(font
@@ -5228,6 +5448,116 @@
 			(uuid "e47edbb9-09ea-48d2-a59d-68cebc80308b")
 		)
 	)
+	(footprint "MountingHole:MountingHole_2.7mm"
+		(layer "F.Cu")
+		(uuid "57db9a48-134d-4aa2-9b1d-d96a81038bc6")
+		(at 252.003076 71.334049)
+		(descr "Mounting Hole 2.7mm, no annular")
+		(tags "mounting hole 2.7mm no annular")
+		(property "Reference" "REF**"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f2b8408e-06b4-4e9a-b55e-3a845075a151")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.7mm"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "e5360e84-40e6-416e-bb3f-a913a91f1794")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb2b890f-d7fb-4cc7-a6f2-768801daf316")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04be6e74-4144-403a-95f8-bc37ba2ddbbc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c439e395-c585-48d9-9574-69dbab8d857e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "841dfe62-2480-4ce1-bab5-027c7bc06211")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "bb3ed23d-b031-4e48-a69a-e119cbd8f268")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "73499d05-af79-42fe-9443-4c85f4634c2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "fdf6ff17-64f2-4204-84aa-4301c8756855")
+		)
+	)
 	(footprint "CustomLib:THROUGH HOLE PAD 1.7MM HOLE 3.0MM PAD"
 		(layer "F.Cu")
 		(uuid "5c005a0d-1570-4937-baf9-49293e3f7b2b")
@@ -5331,7 +5661,7 @@
 		)
 		(property "Value" "Keyswitch"
 			(at 0 8 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "582b13f9-9126-4a09-ae4d-603999e662b4")
 			(effects
 				(font
@@ -5665,7 +5995,7 @@
 		)
 		(property "Value" "Keyswitch"
 			(at 0 8 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "060fb2c1-de15-4d75-acb6-8a3d0aa3801d")
 			(effects
 				(font
@@ -5980,6 +6310,116 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_2.7mm"
+		(layer "F.Cu")
+		(uuid "6b47f686-1b96-4e08-918a-48a772e5f063")
+		(at 252.003076 130.966049)
+		(descr "Mounting Hole 2.7mm, no annular")
+		(tags "mounting hole 2.7mm no annular")
+		(property "Reference" "REF**"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f2b8408e-06b4-4e9a-b55e-3a845075a151")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.7mm"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "e5360e84-40e6-416e-bb3f-a913a91f1794")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb2b890f-d7fb-4cc7-a6f2-768801daf316")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04be6e74-4144-403a-95f8-bc37ba2ddbbc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c439e395-c585-48d9-9574-69dbab8d857e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "841dfe62-2480-4ce1-bab5-027c7bc06211")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "bb3ed23d-b031-4e48-a69a-e119cbd8f268")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "73499d05-af79-42fe-9443-4c85f4634c2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "fdf6ff17-64f2-4204-84aa-4301c8756855")
+		)
+	)
 	(footprint "CustomLib:THROUGH HOLE PAD 1.7MM HOLE 3.0MM PAD"
 		(layer "F.Cu")
 		(uuid "736d238a-b781-4eef-82a2-433423f95e5f")
@@ -6167,7 +6607,7 @@
 		)
 		(property "Value" "Keyswitch"
 			(at 0 8 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "cbd50b70-8660-4e27-b940-fe268fa94eb1")
 			(effects
 				(font
@@ -6837,7 +7277,7 @@
 		)
 		(property "Value" "Keyswitch"
 			(at 0 8 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "81c9b9a6-5dd1-484f-a14b-07361479f7d2")
 			(effects
 				(font
@@ -7171,7 +7611,7 @@
 		)
 		(property "Value" "Keyswitch"
 			(at 0 8 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "de607724-7125-4f5d-97dd-57a0fb82b3b3")
 			(effects
 				(font
@@ -7673,7 +8113,7 @@
 		)
 		(property "Value" "Keyswitch"
 			(at 0 8 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "af4dec55-b4be-494b-9d27-58d19760961c")
 			(effects
 				(font
@@ -8091,7 +8531,7 @@
 		)
 		(property "Value" "Keyswitch"
 			(at 0 8 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "34009515-63d6-45c8-9fa1-c13e44f28179")
 			(effects
 				(font
@@ -8425,7 +8865,7 @@
 		)
 		(property "Value" "LED"
 			(at 1.27 2.96 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "3bdfd7cf-3b49-4188-99a1-3361321ee84c")
 			(effects
 				(font
@@ -8648,6 +9088,116 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_2.7mm"
+		(layer "F.Cu")
+		(uuid "be2ce420-b0e6-497e-ae48-694ee18f14a0")
+		(at 203.683076 103.535549)
+		(descr "Mounting Hole 2.7mm, no annular")
+		(tags "mounting hole 2.7mm no annular")
+		(property "Reference" "REF**"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f2b8408e-06b4-4e9a-b55e-3a845075a151")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.7mm"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "e5360e84-40e6-416e-bb3f-a913a91f1794")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb2b890f-d7fb-4cc7-a6f2-768801daf316")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04be6e74-4144-403a-95f8-bc37ba2ddbbc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c439e395-c585-48d9-9574-69dbab8d857e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "841dfe62-2480-4ce1-bab5-027c7bc06211")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "bb3ed23d-b031-4e48-a69a-e119cbd8f268")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "73499d05-af79-42fe-9443-4c85f4634c2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "fdf6ff17-64f2-4204-84aa-4301c8756855")
+		)
+	)
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "c9bf06a8-7cdc-4201-a5c8-cf7fc3ebdcf6")
@@ -8667,7 +9217,7 @@
 		)
 		(property "Value" "LED"
 			(at 1.27 2.96 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "4dcef4dc-dfa4-4889-b925-914b5d4b7280")
 			(effects
 				(font
@@ -8909,7 +9459,7 @@
 		)
 		(property "Value" "LED"
 			(at 1.27 2.96 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "1f14d2a4-b673-4dbb-a0ea-88e943353b74")
 			(effects
 				(font
@@ -9235,7 +9785,7 @@
 		)
 		(property "Value" "LED"
 			(at 1.27 2.96 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "007a245e-aaa1-4ebd-a790-a5d7b98373e5")
 			(effects
 				(font
@@ -9542,6 +10092,116 @@
 			(uuid "eb07c4c1-3aea-49ea-a013-0155b01bdba4")
 		)
 	)
+	(footprint "MountingHole:MountingHole_2.7mm"
+		(layer "F.Cu")
+		(uuid "d71510c2-e5f4-4529-a319-33a1dd082816")
+		(at 41.663076 71.334049)
+		(descr "Mounting Hole 2.7mm, no annular")
+		(tags "mounting hole 2.7mm no annular")
+		(property "Reference" "REF**"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f2b8408e-06b4-4e9a-b55e-3a845075a151")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.7mm"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "e5360e84-40e6-416e-bb3f-a913a91f1794")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb2b890f-d7fb-4cc7-a6f2-768801daf316")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04be6e74-4144-403a-95f8-bc37ba2ddbbc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c439e395-c585-48d9-9574-69dbab8d857e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "841dfe62-2480-4ce1-bab5-027c7bc06211")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "bb3ed23d-b031-4e48-a69a-e119cbd8f268")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "73499d05-af79-42fe-9443-4c85f4634c2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "fdf6ff17-64f2-4204-84aa-4301c8756855")
+		)
+	)
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "db3182f1-a46c-4a62-9b6d-7ad06c199375")
@@ -9561,7 +10221,7 @@
 		)
 		(property "Value" "LED"
 			(at 1.27 2.96 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "8d94db2e-c793-45c3-a68f-5e6332200a98")
 			(effects
 				(font
@@ -9803,7 +10463,7 @@
 		)
 		(property "Value" "LED"
 			(at 1.27 2.96 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "ecf1ad67-99ca-47ab-95ad-7cffbb3a57db")
 			(effects
 				(font
@@ -10045,7 +10705,7 @@
 		)
 		(property "Value" "Keyswitch"
 			(at 0 8 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "e008ddf3-0e5c-4088-9466-7f52868e55f1")
 			(effects
 				(font
@@ -10379,7 +11039,7 @@
 		)
 		(property "Value" "Keyswitch"
 			(at 0 8 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "83798c6a-d090-407a-ad98-a38bf1ccf784")
 			(effects
 				(font
@@ -10713,7 +11373,7 @@
 		)
 		(property "Value" "Keyswitch"
 			(at 0 8 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "5e5d85ec-7547-4588-b4e7-1d1f322f8f71")
 			(effects
 				(font
@@ -11131,7 +11791,7 @@
 		)
 		(property "Value" "LED"
 			(at 1.27 2.96 0)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "70ff6832-ea66-4a38-ac35-58b0dbdbb0d4")
 			(effects
 				(font
@@ -11352,6 +12012,116 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.7mm"
+		(layer "F.Cu")
+		(uuid "f7e99521-96eb-4986-ba71-e4a69b253795")
+		(at 41.643076 130.986049)
+		(descr "Mounting Hole 2.7mm, no annular")
+		(tags "mounting hole 2.7mm no annular")
+		(property "Reference" "REF**"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f2b8408e-06b4-4e9a-b55e-3a845075a151")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.7mm"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "e5360e84-40e6-416e-bb3f-a913a91f1794")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb2b890f-d7fb-4cc7-a6f2-768801daf316")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04be6e74-4144-403a-95f8-bc37ba2ddbbc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c439e395-c585-48d9-9574-69dbab8d857e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "841dfe62-2480-4ce1-bab5-027c7bc06211")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "bb3ed23d-b031-4e48-a69a-e119cbd8f268")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "73499d05-af79-42fe-9443-4c85f4634c2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "fdf6ff17-64f2-4204-84aa-4301c8756855")
 		)
 	)
 	(footprint "CustomLib:THROUGH HOLE PAD 1.7MM HOLE 3.0MM PAD"
@@ -15294,72 +16064,6 @@
 			)
 		)
 	)
-	(gr_circle
-		(center 89.448076 103.535549)
-		(end 87.996451 103.535549)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill none)
-		(layer "Edge.Cuts")
-		(uuid "0ecd700b-1f3d-46b1-9e38-85e98388691d")
-	)
-	(gr_circle
-		(center 252.003076 130.966049)
-		(end 250.551451 130.966049)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill none)
-		(layer "Edge.Cuts")
-		(uuid "25412e1b-40cc-4471-8d6f-fb769c55ad74")
-	)
-	(gr_circle
-		(center 252.003076 71.334049)
-		(end 250.551451 71.334049)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill none)
-		(layer "Edge.Cuts")
-		(uuid "3563a933-6c10-4028-9ee2-b845eaca2446")
-	)
-	(gr_circle
-		(center 146.533076 103.535549)
-		(end 145.081451 103.535549)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill none)
-		(layer "Edge.Cuts")
-		(uuid "35d2c83c-6f44-4d2f-95fe-b3a042647480")
-	)
-	(gr_circle
-		(center 41.663076 130.966049)
-		(end 40.211451 130.966049)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill none)
-		(layer "Edge.Cuts")
-		(uuid "5b81dbfe-c942-479c-b50c-c5507d714b5e")
-	)
-	(gr_circle
-		(center 203.683076 103.535549)
-		(end 202.231451 103.535549)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill none)
-		(layer "Edge.Cuts")
-		(uuid "7ce97c60-d1aa-40b8-be89-2d4f9b661259")
-	)
 	(gr_rect
 		(start 35.663076 65.334049)
 		(end 257.913076 136.966049)
@@ -15370,17 +16074,6 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "84b07ee0-da24-43c0-b2c7-8c257af26b8a")
-	)
-	(gr_circle
-		(center 41.663076 71.334049)
-		(end 40.211451 71.334049)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill none)
-		(layer "Edge.Cuts")
-		(uuid "963df9c0-7ed6-4884-a370-86c4247d099a")
 	)
 	(gr_text "Micro Midi Button Matrix v1\n07/11/2024"
 		(at 146.403076 133.045549 0)

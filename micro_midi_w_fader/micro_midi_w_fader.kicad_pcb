@@ -18906,14 +18906,19 @@
 		(uuid "29d4ac17-07a1-4452-8599-5523c52c9ddb")
 	)
 	(gr_line
+<<<<<<< Updated upstream
 		(start 326.2652 165.307579)
 		(end 104.0157 165.307579)
+=======
+		(start 381.798373 263.945579)
+		(end 381.798373 90.713679)
+>>>>>>> Stashed changes
 		(stroke
-			(width 0.254)
+			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "3728ebb4-d3d0-42cb-8d1c-98b2e91f8d51")
+		(uuid "350c6c0a-1ed7-4709-832e-66179a566ba8")
 	)
 	(gr_circle
 		(center 215.1802 203.509079)
@@ -18926,6 +18931,7 @@
 		(layer "Edge.Cuts")
 		(uuid "429f0f78-873f-44ab-835f-895174d10be0")
 	)
+<<<<<<< Updated upstream
 	(gr_line
 		(start 326.2652 63.707679)
 		(end 326.2652 165.307579)
@@ -18936,6 +18942,8 @@
 		(layer "Edge.Cuts")
 		(uuid "496215a2-51f0-46d7-b9e2-a0c0730f71b3")
 	)
+=======
+>>>>>>> Stashed changes
 	(gr_circle
 		(center 110.0157 171.307579)
 		(end 108.564075 171.307579)
@@ -18947,16 +18955,21 @@
 		(layer "Edge.Cuts")
 		(uuid "5b2856ee-2683-4789-93be-2eb7e46093d5")
 	)
+<<<<<<< Updated upstream
 	(gr_rect
 		(start 104.0157 165.307579)
 		(end 326.2657 236.939579)
+=======
+	(gr_line
+		(start 159.548373 263.945579)
+		(end 381.798373 263.945579)
+>>>>>>> Stashed changes
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
 		(layer "Edge.Cuts")
-		(uuid "7cd59e31-c135-45f2-a67d-9fd2c584936c")
+		(uuid "6532034a-fecb-47d8-a9ba-c44619ea6a9a")
 	)
 	(gr_circle
 		(center 320.2657 230.939579)
@@ -18969,6 +18982,7 @@
 		(layer "Edge.Cuts")
 		(uuid "8254c62b-b957-447d-967a-29128729b9b4")
 	)
+<<<<<<< Updated upstream
 	(gr_line
 		(start 104.0157 63.707679)
 		(end 326.2652 63.707679)
@@ -18979,6 +18993,8 @@
 		(layer "Edge.Cuts")
 		(uuid "8de97ffb-f596-4625-a883-b47a6dd0f5b1")
 	)
+=======
+>>>>>>> Stashed changes
 	(gr_circle
 		(center 272.0502 203.509079)
 		(end 270.598575 203.509079)
@@ -19002,14 +19018,29 @@
 		(uuid "bcc31c09-eacc-4484-8c75-aef19a95031c")
 	)
 	(gr_line
+<<<<<<< Updated upstream
 		(start 104.0157 165.307579)
 		(end 104.0157 63.707679)
+=======
+		(start 159.548373 90.713679)
+		(end 159.548373 263.945579)
+>>>>>>> Stashed changes
 		(stroke
-			(width 0.254)
+			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "e90566d4-d7cb-44dc-a606-0c76c861fe53")
+		(uuid "d74e16cd-4bac-48c3-b54b-9af789696a19")
+	)
+	(gr_line
+		(start 381.798373 90.713679)
+		(end 159.548373 90.713679)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d83149e2-ccd9-4ae6-8fb1-d85ab6bdc2b1")
 	)
 	(gr_circle
 		(center 320.2652 171.307579)
@@ -19022,6 +19053,7 @@
 		(layer "Edge.Cuts")
 		(uuid "ea43bf34-eeb5-44a1-9935-be26b621ea6b")
 	)
+<<<<<<< Updated upstream
 	(gr_text "*"
 		(at 243.4062 157.958979 0)
 		(layer "F.SilkS")
@@ -19034,6 +19066,8 @@
 			(justify left top)
 		)
 	)
+=======
+>>>>>>> Stashed changes
 	(gr_text "Micro Midi Button Matrix v1\n07/11/2024"
 		(at 215.1657 229.789579 0)
 		(layer "F.SilkS")
