@@ -475,7 +475,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "for_pcb/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "micro_midi.step",
